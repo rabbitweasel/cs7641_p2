@@ -46,7 +46,7 @@ public class NNRHC {
             NeuralNetworkOptimizationProblem nno = new NeuralNetworkOptimizationProblem(
                     set, networkTrain, measure);
             OptimizationAlgorithm o = new RandomizedHillClimbing(nno);
-            FixedIterationTrainer fit = new FixedIterationTrainer(o, 1000); // 5000
+            FixedIterationTrainer fit = new FixedIterationTrainer(o, 5000); // 5000
             fit.train();
             Instance opt = o.getOptimal();
             networkTrain.setWeights(opt.getData());
