@@ -1,0 +1,45 @@
+<100,10>	<500,500,10>	iter:	100
+
+RHC: 100.0
+RHC good: 0
+SA: 108.01
+SA good: 9
+GA: 121.33
+GA good: 99
+
+RHC: 100.89
+RHC good: 1
+SA: 117.8
+SA good: 20
+GA: 120.85
+GA good: 98
+
+
+
+<100,10> 			iter:	100
+// GA seeding RHC, SA
+// GA is a good way to seed starts for RHC and SA with fewer peaks
+// GA good for finding spot somewhere on best hill 
+
+// SA is generally good for finding good optima but GA scores higher on average
+// Unmodified SA can find the optima with just a few iterations
+// Large discontinuity jump causes other algorithms to have difficulty making the jump
+// SA with high T can make the jump since MULTIPLE CONSECUTIVE downhill movements are needed
+// SA still needs guided structure to move uphill once it's on the best hill (cool T)
+	// GA and Mimic can't do that even once on the best hill (random movements)
+
+N = 100 ,T = 10, max possible: 189
+Time: 29.62
+RHC average: 100.0
+RHC above N: 0
+RHC max: 100.0
+SA average: 126.7
+SA above N: 3
+SA max: 189.0
+GA average: 120.1
+GA above N: 10
+GA max: 130.0
+MIMIC average: 0.0
+MIMIC above N: 4
+MIMIC max: 169.0
+

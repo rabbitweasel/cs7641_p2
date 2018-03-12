@@ -1,0 +1,9 @@
+Affine combination for mutation step
+	Haupt's method Haupt, R. L., & Haupt, S. E. (2004). Practical Genetic Algorithms (2nd ed.). Hoboken: Wiley
+	if mutation on value:
+		pick x in continuous 0 <= x <= 1
+		From parent A: total = (1-x)*A.value
+		From parent B: total += x*B.value
+	this will be for network weights (as per assignment instructions since using NN)
+
+SA is terrible when there are a lot of peaks (e.g. choose a weight when number of connections in NN is high)

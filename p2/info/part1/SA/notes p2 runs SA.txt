@@ -1,0 +1,179 @@
+
+
+there are no local maxima to get stuck on for the most part due to high dimension neighbors e.g. 122x100 + 100 weights in network
+	therefore, reducing nodes (hidden) will allow for SA to perform better.
+		This is a tradeoff in expressiveness of network and possibly performance reducing hidden node counts.
+			Decreased performance seen when training a GA on <122,10,1> performs about 5% worse or ~10% decrease over random baseline
+High temperatures cause SSE to get stuck in bad areas (climbing >> exploration in high dimensional space of <122,100,1> as you're not getting stuck in a local minima)
+	For Neural Networks, a particular weight's change can be in a minima but the network as a whole is not.
+
+<122,10,1>	<small T,N/A>	iter:625
+
+train: 0.5021428571428571
+test: 0.43666666666666665
+train: 0.5
+test: 0.5033333333333333
+train: 0.6392857142857142
+test: 0.6466666666666666
+ 
+average time: 1.3933333333333333
+score train: 0.5471428571428572
+score test: 0.5288888888888889
+
+<122,10,1>	<small T,N/A>	iter:1250
+
+train: 0.7314285714285714
+test: 0.6866666666666666
+train: 0.7057142857142857
+test: 0.6983333333333334
+train: 0.5607142857142857
+test: 0.5666666666666667
+ 
+average time: 2.7246666666666663
+score train: 0.665952380952381
+score test: 0.6505555555555556
+
+<122,10,1>	<small T,N/A>	iter:2500
+
+train: 0.7857142857142857
+test: 0.7666666666666667
+train: 0.7828571428571428
+test: 0.7533333333333333
+train: 0.7442857142857143
+test: 0.7116666666666667
+ 
+average time: 5.323
+score train: 0.770952380952381
+score test: 0.7438888888888888
+
+<122,10,1>	<small T,N/A>	iter:5000
+
+train: 0.8435714285714285
+test: 0.8
+train: 0.8092857142857143
+test: 0.7833333333333333
+train: 0.8314285714285714
+test: 0.795
+ 
+average time: 10.459666666666667
+score train: 0.828095238095238
+score test: 0.7927777777777778
+
+<122,10,1>	<small T,N/A>	iter:10000
+
+train: 0.855
+test: 0.815
+train: 0.8528571428571429
+test: 0.82
+train: 0.8692857142857143
+test: 0.815
+ 
+average time: 20.764
+score train: 0.859047619047619
+score test: 0.8166666666666665
+
+<122,10,1>	<small T,N/A>	iter:20000
+
+train: 0.8914285714285715
+test: 0.7933333333333333
+train: 0.8871428571428571
+test: 0.8166666666666667
+train: 0.8892857142857142
+test: 0.8116666666666666
+ 
+average time: 42.11366666666667
+score train: 0.8892857142857142
+score test: 0.8072222222222222
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+-------------------------
+garbage:
+
+<122,100,1>	<1E15,0.15>	iter:	1000	sets:	1	algo: SA	set:	Train, Test
+
+train: 0.62
+test: 0.6766666666666666
+train: 0.7278571428571429
+test: 0.7066666666666667
+train: 0.4614285714285714
+test: 0.4266666666666667
+ 
+average time: 27.477999999999998
+score train: 0.603095238095238
+score test: 0.6033333333333334
+
+<122,100,1>	<1,0.95>	iter:	1000	sets:	1	algo: SA	set:	Train, Test
+
+train: 0.7035714285714286
+test: 0.6983333333333334
+train: 0.6
+test: 0.62
+train: 0.5892857142857143
+test: 0.6116666666666667
+ 
+average time: 27.337999999999997
+score train: 0.6309523809523809
+score test: 0.6433333333333334
+
+<122,100,1>	<10,0.95>	iter:	1000	sets:	1	algo: SA	set:	Train, Test
+
+train: 0.57
+test: 0.5533333333333333
+train: 0.5357142857142857
+test: 0.51
+train: 0.5271428571428571
+test: 0.5133333333333333
+ 
+average time: 27.28933333333333
+score train: 0.5442857142857143
+score test: 0.5255555555555556
+
+<122,100,1>	<50,0.95>	iter:	1000	sets:	1	algo: SA	set:	Train, Test
+
+train: 0.6235714285714286
+test: 0.6166666666666667
+train: 0.5771428571428572
+test: 0.6033333333333334
+train: 0.485
+test: 0.5083333333333333
+ 
+average time: 27.323333333333334
+score train: 0.5619047619047618
+score test: 0.5761111111111111
+
+<122,100,1>	<150,0.95>	iter:	1000	sets:	1	algo: SA	set:	Train, Test
+
+train: 0.5728571428571428
+test: 0.58
+train: 0.65
+test: 0.685
+train: 0.39
+test: 0.42
+ 
+average time: 27.345
+score train: 0.5376190476190477
+score test: 0.5616666666666666
+
+<122,100,1>	<500,0.95>	iter:	1000	sets:	1	algo: SA	set:	Train, Test
+
+train: 0.6678571428571428
+test: 0.6683333333333333
+train: 0.5635714285714286
+test: 0.5883333333333334
+train: 0.6371428571428571
+test: 0.68
+ 
+average time: 27.266000000000002
+score train: 0.6228571428571428
+score test: 0.6455555555555557

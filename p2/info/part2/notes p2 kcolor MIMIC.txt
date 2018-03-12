@@ -1,0 +1,138 @@
+
+ITER NOT CONSTANT, TIME CLOSE TO CONSTANT
+
+
+<50,7,8>	iter:	<50,5>
+
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 30
+============================
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 2
+============================
+GA: 290.0
+Failed to find Max-K Color combination !
+Time : 22
+============================
+MIMIC: 350.0
+Found Max-K Color Combination !
+Time : 18
+
+RHC: 246.0
+Failed to find Max-K Color combination !
+Time : 31
+============================
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 2
+============================
+GA: 321.0
+Failed to find Max-K Color combination !
+Time : 19
+============================
+MIMIC: 342.0
+Failed to find Max-K Color combination !
+Time : 17
+
+iter:	<100,10>
+
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 27
+============================
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 1
+============================
+GA: 350.0
+Found Max-K Color Combination !
+Time : 22
+============================
+MIMIC: 350.0
+Found Max-K Color Combination !
+Time : 20
+
+iter:	<40,8>
+
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 24
+============================
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 1
+============================
+GA: 329.0
+Failed to find Max-K Color combination !
+Time : 15
+============================
+MIMIC: 350.0
+Found Max-K Color Combination !
+Time : 13
+
+iter:	<50,5>
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 65
+============================
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 38
+============================
+GA: 337.0
+Failed to find Max-K Color combination !
+Time : 13
+============================
+MIMIC: 350.0
+Found Max-K Color Combination !
+Time : 14
+
+-------------------------------------
+
+NUMBER RESTARTS UNTIL FOUND
+ITER CONSTANT, TIME NOT CONSTANT
+
+<50,7,8>	iter:	<50,50>
+
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 79
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 39
+GA restarts needed: 239
+Time : 1564
+MIMIC restarts needed: 0
+Time : 68
+
+
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 68
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 41
+GA restarts needed: 548
+Time : 3322
+MIMIC restarts needed: 7
+Time : 334
+
+
+RHC: 255.0
+Failed to find Max-K Color combination !
+Time : 68
+SA: 255.0
+Failed to find Max-K Color combination !
+Time : 34
+GA restarts needed: 492
+Time : 2967
+MIMIC restarts needed: 1
+Time : 92
+
+
+
+
+
+

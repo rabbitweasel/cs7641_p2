@@ -1,0 +1,8 @@
+RHC: 0.11212474295610225
+SA: 0.0988620897404318
+GA: 0.15228684327101424
+MIMIC: 0.10122220215051374
+
+Genetic consistently maxes out
+The underlying structure is preserved
+	nearby indicies are relevant in int array (representing cities) 
